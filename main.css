@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+    .navbar_header {
+background: #545454;
+display: flex;
+justify-content: space-between;
+padding: 0.5rem 1rem;
+border-radius: 0.3rem solid #6baa75;
+    
+}
+.nav_btn {
+    align-self: 38px;
+    border: 5px solid #6baa75;
+    cursor: pointer;
+}
+.bar1,.bar2,.bar3 {
+    width: 30px;
+    height: 5px;
+    margin: 0.5rem;
+    background: #6baa75;
+    transition: all 2s ease;
+}
+.change .bar1 {
+    transform: rotate(-45deg) translate(-10px 10px);
+}
+.change .bar2 {
+    opacity: 0;
+}
+.change .bar3 {
+     transform: rotate(45deg) translate(-7px -8px)
+}
+.navbar_links {
+    list-style-type: none;
+    transform: all 2s ease;
+    height: 0;
+    overflow: hidden;
+}
+.navbar_collapse{
+    height: 240px;
+}
+.navbar_single-link {
+    display: block;
+    background: #69747c;
+    text-transform: capitalize;
+    color: #6baa75;
+    cursor: pointer;
+    transition: all 1s ease;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+}
+.navbar_single-link:hover {
+    padding-left: 1.5rem;
+    background: #545454;
+}
+.header{
+    min-height: calc(100vh - 91.8px);
+    background-image: url('image/pic.jpg')center/cover no-repeat;
+}
+.navbar_logo {
+    height: 100px;
+    width: 160px;
+}
